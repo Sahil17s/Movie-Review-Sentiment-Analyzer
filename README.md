@@ -7,6 +7,6 @@ You can get the IMDB Dataset from here : http://ai.stanford.edu/~amaas/data/sent
 
 ![](static/images/Movie-Review-Web-app.gif)
 
-[Check out the Deployed Model from here!!!!!](https://movie-reviews-web-app.herokuapp.com/predict)
+[Check out the Deployed Model!!!!!](https://movie-reviews-web-app.herokuapp.com/predict)
 
 Please give a ⭐ if you liked it.
