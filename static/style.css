@@ -1,0 +1,41 @@
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 35%;
+  left: 49%;
+  height:270px;
+  transform: translate(-50%,-50%);
+  background: #87cefa;
+  text-align: center;
+}
+
+.box h1{
+  color:#800000  ;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.dialog input[type = "submit"]{
+  border:0;
+  background: #1e90ff;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid ;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#f6f9fa;
+  color: #f6f9fa;
+  text-align: center;
+}
