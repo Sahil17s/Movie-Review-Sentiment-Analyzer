@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Movie Review Sentiment Analyser</title>
+
+  <link rel="stylesheet" type="text/css" href="../static/style.css">
+  <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+</head>
+
+<body style="margin: 0;
+padding: 0;
+font-family: Roboto, sans-serif;
+background-color: #f6f9fa;">
+
+  <header style="position: fixed;
+  background: rgb(60, 79, 136);
+  padding: 30px;
+  width: 100%;
+  height: 70px;">
+
+    <div class="left_area">
+      <h1 style="color:white">
+        <center>MOVIE REVIEW SENTIMENT ANALYZER</center>
+      </h1>
+    </div>
+  </header>
+
+
+  <br><br><br><br><br><br> <br><br>
+
+
+  <div class="ml-container">
+    <form name="myform" action="{{ url_for('predict') }}" method="POST">
+      <h3 style="text-align: center;">Write your review here....</h3>
+      <center>
+        <textarea class='message-box' name="message" rows="15" cols="75"></textarea>
+
+      </center>
+      <div class="dialog" style="text-align:center;">
+
+        <input type="submit" name="submit" value="PREDICT">
+      </div>
+    </form>
+  </div>
+
+
+  <div class="footer">
+    <a href="https://www.linkedin.com/in/sahilsrivastava17/">
+      <i style="font-size:48px;color:#0e76a8;margin-left: 60px;" class="fa fa-linkedin-square"
+        aria-hidden="true"></i></a>
+
+    <a href="https://github.com/Sahil17s/Movie-Review-Sentiment-Analyzer">
+      <i class="fa fa-github" style="padding: 10px; font-size:48px;color:black"></i> </a>
+
+  </div>
+
+</body>
+
+</html>
